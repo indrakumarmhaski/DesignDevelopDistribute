@@ -5,9 +5,11 @@
 
 .btn-outline-warning {
     color: white;
-    border-color: white;
     line-height: 1.5;
     border-radius: .3rem;
+}
+.cs-btn {
+    border-color: white;
 }
 
 .link-white {
@@ -52,10 +54,69 @@
 .logo-mt-0 {
     margin-top: -6px !important;
 }
-/* For small devises */
+.fill-screen {
+    background-image: url('../images/HeaderBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.color-orange {
+    color: orange;
+}
+
+.section-intro {
+    background-color: #ffa50014;
+}
+
+
+/* For big screens */
+@media(min-width: 992px) {
+    .main-heading {
+        padding-top: 125px;
+        color: white;
+        font-weight: 500;
+    }
+    .design-image-one {
+        background-image: url('../images/DesignImage1.jpg');
+        background-repeat: no-repeat;
+        height: 600px;
+    }
+    .row-h-lg {
+        height: 518px;
+    }
+}
+
+/* For small screens */
 @media(max-width: 993px)  
 {
+    .logo-div {
+        margin-left: -10px !important;
+    }
     .not-sm {
         display: none;
     }
+    .main-heading {
+        padding-top: 140px;
+        color: white;
+        font-size: 30px;
+    }
+    .bg-sm-dark {
+        background-color: black;
+        opacity: 0.7;
+        color: white;
+    }
+    .fill-screen {
+        height: 450px;
+    }
+    .design-image-one {
+        background-image: url('../images/DesignImage1.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+
+    }
+
+
 }
+
+
