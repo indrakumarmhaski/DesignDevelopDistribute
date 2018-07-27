@@ -104,6 +104,8 @@
     background-color: #f25c05;
 }
 
+
+
 /* For big screens */
 @media(min-width: 992px) {
     .main-heading {
