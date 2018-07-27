@@ -68,6 +68,19 @@
     background-color: #ffa50014;
 }
 
+.dev-sec-bg-img {
+    width: 100%;
+    background-image: url('../images/DevBgalt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 705px;
+}
+
+.text-white {
+    color: white;
+}
+
 
 /* For big screens */
 @media(min-width: 992px) {
@@ -114,6 +127,9 @@
         background-size: contain;
         height: 300px;
 
+    }
+    .dev-sec-bg-img {
+        height: 1503px;
     }
 
 
