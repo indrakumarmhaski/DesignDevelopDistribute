@@ -104,7 +104,13 @@
     background-color: #f25c05;
 }
 
-
+.aboutus-section {
+    width: 100%;
+    background-image: url('../images/AboutUsBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
 
 /* For big screens */
 @media(min-width: 992px) {
@@ -162,6 +168,9 @@
     .portfolio-section {
         height: 1440px;
     }
+    .aboutus-section {
+        height: 655px;
+     }
 
 }
 
