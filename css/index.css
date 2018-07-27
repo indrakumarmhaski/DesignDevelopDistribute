@@ -81,6 +81,13 @@
     color: white;
 }
 
+.services-section {
+    background-color: #ffa50014;
+}
+
+.color-light-orange {
+    color: #ffa500ad;
+}
 
 /* For big screens */
 @media(min-width: 992px) {
@@ -96,6 +103,10 @@
     }
     .row-h-lg {
         height: 518px;
+    }
+    .card-image {
+        width: 150px;
+        
     }
 }
 
