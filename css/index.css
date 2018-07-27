@@ -1,0 +1,61 @@
+
+.bg-orange {
+    background-color: orange;
+}
+
+.btn-outline-warning {
+    color: white;
+    border-color: white;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.link-white {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.plus-plus {
+    width: 10px;
+    height: 7px;
+    margin-bottom: 4px;
+}
+
+.plus-plus-second {
+    width: 10px;
+    height: 7px;
+    margin-bottom: 2px;
+}
+
+.not-sm {
+    display: inline-block;
+}
+
+.logo {
+    color: white !important;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+}
+
+.logo-div {
+    margin-top: -5px;
+    margin-bottom: -8px;
+    margin-left: 45px !important;
+}
+.logo-mt-0 {
+    margin-top: -6px !important;
+}
+/* For small devises */
+@media(max-width: 993px)  
+{
+    .not-sm {
+        display: none;
+    }
+}
