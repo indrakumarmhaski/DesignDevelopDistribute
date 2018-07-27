@@ -88,6 +88,21 @@
 .color-light-orange {
     color: #ffa500ad;
 }
+.color-white {
+    color: white;
+}
+.portfolio-section {
+    width: 100%;
+    background-image: url('../images/PortfolioBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 705px;
+}
+
+.btn-section {
+    background-color: #f25c05;
+}
 
 /* For big screens */
 @media(min-width: 992px) {
@@ -142,7 +157,9 @@
     .dev-sec-bg-img {
         height: 1503px;
     }
-
+    .portfolio-section {
+        height: 1440px;
+    }
 
 }
 
